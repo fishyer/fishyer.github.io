@@ -75,6 +75,6 @@ maven {
 随便介绍下自己的这个super-adapter库，这是一个RecyclerView的万能Adapter库，快速实现单布局列表、多布局列表、多布局多列的列表等。详情参见：[Adapter的封装之路](http://www.jianshu.com/p/f530318be47a )
 
 ## 参考目录
-1. [5分钟发布Android Library项目到JCenter](http://www.jianshu.com/p/0e7b8e14f0cd/comments/1050253)
+1. [5分钟发布AndroidLibrary项目到JCenter](http://www.jianshu.com/p/0e7b8e14f0cd/comments/1050253)
 2. [如何使用Android Studio把自己的Android library分发到jCenter和Maven Central](http://www.devtf.cn/?p=760)
 3. [Android 快速发布开源项目到jcenter](http://blog.csdn.net/lmj623565791/article/details/51148825)

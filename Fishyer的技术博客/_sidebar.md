@@ -43,7 +43,7 @@
   - [创业板涨幅动量策略](Fishyer的技术博客/创业板涨幅动量策略.md)
   - [利用动态代理实现简单的RPC框架](Fishyer的技术博客/利用动态代理实现简单的RPC框架.md)
   - [单例模式](Fishyer的技术博客/单例模式.md)
-  - [发布Android Library项目到JCenter](Fishyer的技术博客/发布Android Library项目到JCenter.md)
+  - [发布AndroidLibrary项目到JCenter](Fishyer的技术博客/发布AndroidLibrary项目到JCenter.md)
   - [告别臃肿的Contract接口，kotlin实现极简MVP](Fishyer的技术博客/告别臃肿的Contract接口，kotlin实现极简MVP.md)
   - [我的编程学习之路](Fishyer的技术博客/我的编程学习之路.md)
   - [把知乎当做微博一样用，用写卡片笔记的方法来写知乎文章](Fishyer的技术博客/把知乎当做微博一样用，用写卡片笔记的方法来写知乎文章.md)
