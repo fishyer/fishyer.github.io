@@ -1,0 +1,4 @@
+- [微信速记](https://www.hulunote.com/app#/fishyer/diaries)
+- [Logseq大纲](https://logseq.fishyer.com)
+- [Docsify文档](http://docsify.fishyer.com)
+- [Notion数据库](https://notion.fishyer.com)
