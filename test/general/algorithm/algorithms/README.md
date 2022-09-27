@@ -1,3 +1,0 @@
-- [返回上一级 [algorithm]](test/general/algorithm/)
-- [algorithms](test/general/algorithm/algorithms/)
-  - [sorting](test/general/algorithm/algorithms/sorting.md)

@@ -1,2 +1,0 @@
-- [返回上一级 [tree]](test/general/algorithm/data-structures/tree/)
-- [binary-search-tree](test/general/algorithm/data-structures/tree/binary-search-tree/)

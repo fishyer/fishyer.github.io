@@ -1,2 +1,0 @@
-- [返回上一级 [data-structures]](test/general/algorithm/data-structures/)
-- [hash-table](test/general/algorithm/data-structures/hash-table/)

@@ -1,5 +1,0 @@
-- [返回上一级 [data-structures]](test/general/algorithm/data-structures/)
-- [tree](test/general/algorithm/data-structures/tree/)
-  - [binary-search-tree](test/general/algorithm/data-structures/tree/binary-search-tree/)
-  - [red-black-tree](test/general/algorithm/data-structures/tree/red-black-tree/)
-  - [README.zh-CN](test/general/algorithm/data-structures/tree/README.zh-CN.md)

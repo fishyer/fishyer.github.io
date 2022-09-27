@@ -1,3 +1,0 @@
-- [返回上一级 [data-structures]](test/general/algorithm/data-structures/)
-- [graph](test/general/algorithm/data-structures/graph/)
-  - [README.zh-CN](test/general/algorithm/data-structures/graph/README.zh-CN.md)
