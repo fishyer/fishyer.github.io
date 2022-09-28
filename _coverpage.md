@@ -1,10 +1,12 @@
 <!-- _coverpage.md -->
 
-<img src="_media/icon.png" alt="logo" style="zoom:25%;" />
+<!-- <img src="https://yupic.oss-cn-shanghai.aliyuncs.com/test/202209280835165.jpg" alt="logo" style="zoom:25%;" /> -->
 
-# Notes <small>AI</small>
+<img src="log/icon-fishyer-circle.png" alt="logo" style="zoom:25%;" />
 
-> 一个Obsidian本地编写+Docsify实时分享的个人知识库
+# Fishyer <small>AI</small>
+
+> 基于Obsidian+Docsify的个人知识库
 
 > 参考[BabelTower/notes](https://github.com/BabelTower/notes )
 
