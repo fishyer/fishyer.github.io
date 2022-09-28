@@ -1,7 +1,5 @@
----
-link: https://www.notion.so/2-xml-e687e175e0394614980defb425f9f3c5
-notionID: e687e175-e039-4614-980d-efb425f9f3c5
----
+# 分组悬停列表-2：复杂的xml
+
 #Android
 
 第一发：[分组悬停列表-1：简单的Text](http://www.jianshu.com/p/be8eb10cf96a)

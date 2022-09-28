@@ -1,7 +1,4 @@
----
-link: https://www.notion.so/Flutter-Text-overflow-31ddac2e4b074c06ac329f2e83c9912b
-notionID: 31ddac2e-4b07-4c06-ac32-9f2e83c9912b
----
+# 解决Flutter的Text的overflow属性不生效的问题
 
 #Flutter 
 

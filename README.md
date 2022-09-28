@@ -1,25 +1,72 @@
-## 为什么创建这个网站
+> 独学而无友，则孤陋而寡闻。
+余欲效仿二十八画生，诚挚征友，愿你也是一名终生学习者。
 
-一切都是为了折腾，折腾是为了更好的记录
+MyTags: 全栈程序员、量化交易者、效能工具控、终生学习者
 
-## 它和Logseq站点的区别
+🔥如果你想学习编程，想自己去写插件、云服务、脚本、网站、app，可以查看[这里](https://logseq.fishyer.com/#/page/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8-%E5%AD%A6%E4%B9%A0%E7%BE%A4-%E7%AE%80%E4%BB%8B)
 
-一个是文档，一个是大纲
+## 🚀 高效信息管理-微信交流群
 
-## 为什么不用语雀
+这是一个共建共享的效能工具和思维模型知识库
+- [https://logseq.fishyer.com](https://logseq.fishyer.com/) 卡片笔记
+- [https://docsify.fishyer.com](https://docsify.fishyer.com/) 成品文章
+- [https://notion.fishyer.com](https://notion.fishyer.com) 数据库
 
-因为它和Obsidian结合的更自然，全自动
+我建这个群，是希望通过微信群聊里的沟通记录，用群机器人自动沉淀一个共建共享的wiki知识库
+，为大家提供各种目前来说最好用的工具箱、方法论、工作流，帮助大家减少自己去折腾和探索的时间成本。同时，群主也会不定期分享一些学习笔记和学习资料到群里。
 
-## 如何部署
+![](https://yupic.oss-cn-shanghai.aliyuncs.com/202209222135742.jpg?x-oss-process=image/resize,m_lfit,w_500,h_500)
 
-克隆我的Github模板
-- MyObsdian模板
+群二维码要是过期了的话，可以加我微信，备注：入群
+- 微信：fishyer2850
+- 邮箱：[fishyer@foxmail.com](mailto:fishyer@foxmail.com)
 
-要修改的点：
-下面的4个仓库名
+## 🔔 自媒体
 
-创建4个Github站点
-- MyObsidian 私有仓库，所有笔记都存在这
-- MyLogseq 私有仓库，所有的大纲笔记都存在这
-- MyLogseq-Publish，公开仓库，自动导出的所有的公开大纲笔记，自动部署成 logseq.fishyer.com
-- fishyer.github.io，公开仓库，等价于MyDocsify，所有的文档笔记都存在这，自动部署成 docsify.fishyer.com
+- 公众号：天然居plus
+- [知乎](https://www.zhihu.com/people/yu-tian-ran/posts)
+- [B站](https://space.bilibili.com/481831994)
+- [知识星球](https://public.zsxq.com/groups/48848481118228.html) 目前暂时免费，感兴趣速入。积累50篇文章以后可能会开启付费门槛，做个读者的过滤。
+- [独立博客](https://blog.fishyer.com) 可以RSS订阅 https://blog.fishyer.com/feed
+
+## 🚩 技能点
+
+- 编程，全栈工程师，网站、app、脚本都会一点
+- 工具控，喜欢折腾各种GTD、PKM工具，偶尔在b站分享下各种工具妙用
+- 理财，量化交易，趋势投资派，用算法克服人性，在聚宽平台有一个实战策略
+
+## 📖 兴趣
+
+- 读书
+- 写作
+- 象棋
+- 产品运营
+- 经济学
+- 心理学
+- 哲学、数学、国学、诗词、历史、地缘政治、王者荣耀、三国杀等等
+
+## 😎 自我评价
+
+- 极度记录成癖，整理成瘾，常用WorkFlowy大纲、Obsidian双链笔记、Notion数据库整理一切
+- 求知欲极度旺盛，分享欲也很强，酷爱RSS
+- 喜欢收集各种底层学科的思维模型，研究各种方法论和工作流，很喜欢查理芒格的多元思维模型
+- 工作时极度专注，最讨厌编程、阅读、写作时有人打扰
+- 拥抱变化，喜欢尝鲜，博观而约取，保持一种动态的平衡
+
+## 👨‍👨‍👦‍👦 实践基地
+
+这是我们实践高效信息管理的基地，感兴趣的话可以加入
+
+不过目前还在初始化阶段，暂时还没沉淀出太多内容，具体计划可以查看：🎯 [学习目标](https://logseq.fishyer.com/#/page/%E5%AD%A6%E4%B9%A0%E7%9B%AE%E6%A0%87)
+
+### 🧱 全栈程序员-交流群
+
+本群是有志于进阶全栈工程师的程序员的交流群。想转行学编程的，想围观程序员日常的，也可以进群潜水。
+
+![](https://yupic.oss-cn-shanghai.aliyuncs.com/202209161333383.png?x-oss-process=image/resize,m_lfit,w_500,h_500)
+        
+### 💰 量化投资-交流群
+
+本群为理财交流群，可交流记账工具、理财工具、股票、基金、保险、房产、基本财务知识、宏观经济形势、微观公司动态、行业报告等各种话题。所有交流仅供参考，个人投资决策，请慎重抉择
+
+![](https://yupic.oss-cn-shanghai.aliyuncs.com/202209161333384.png?x-oss-process=image/resize,m_lfit,w_500,h_500)

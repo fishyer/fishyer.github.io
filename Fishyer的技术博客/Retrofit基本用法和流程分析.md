@@ -1,7 +1,4 @@
----
-link: https://www.notion.so/Retrofit-bef609d8862f4fd8a67e2e368b16d5c9
-notionID: bef609d8-862f-4fd8-a67e-2e368b16d5c9
----
+# Retrofit基本用法和流程分析
 
 图片来自：Retrofit分析-漂亮的解耦套路(视频版)
 ![image](https://yupic.oss-cn-shanghai.aliyuncs.com/20210719192530.png)

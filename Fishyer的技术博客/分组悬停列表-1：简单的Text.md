@@ -1,7 +1,4 @@
----
-link: https://www.notion.so/1-Text-a80a24808b974566badbe2420a76bf08
-notionID: a80a2480-8b97-4566-badb-e2420a76bf08
----
+# 分组悬停列表-1：简单的Text
 
 #Android 
 

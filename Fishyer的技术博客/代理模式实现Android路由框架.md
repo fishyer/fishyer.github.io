@@ -1,7 +1,4 @@
----
-link: https://www.notion.so/Android-bedf062baf13430dab9e4a36e204c0bf
-notionID: bedf062b-af13-430d-ab9e-4a36e204c0bf
----
+# 代理模式实现Android路由框架
 
 #Android
 

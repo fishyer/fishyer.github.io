@@ -1,7 +1,5 @@
----
-link: https://www.notion.so/SP-4fc5399411024dfa8b6134ddd14021f5
-notionID: 4fc53994-1102-4dfa-8b61-34ddd14021f5
----
+# 像对象一样操作SP
+
 #工具类 
 
 ## 一、使用示例

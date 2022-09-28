@@ -1,7 +1,5 @@
----
-link: https://www.notion.so/OkHttp-token-fe60299aada049ec812841c6783c96a2
-notionID: fe60299a-ada0-49ec-8128-41c6783c96a2
----
+# OkHttp实现全局过期token自动刷新
+
 ## 遇到问题
 
 当前开发的 App 遇到一个问题：

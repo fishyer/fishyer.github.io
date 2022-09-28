@@ -1,9 +1,6 @@
----
-link: https://www.notion.so/git-8244186f488342ee9cb0ea62149ce390
-notionID: 8244186f-4883-42ee-9cb0-ea62149ce390
----
-
 #! https://zhuanlan.zhihu.com/p/433125477
+
+# 如何恢复git中被删除的文件
 
 #Git
 

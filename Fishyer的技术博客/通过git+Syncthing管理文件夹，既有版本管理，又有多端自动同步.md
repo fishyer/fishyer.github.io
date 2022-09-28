@@ -1,9 +1,6 @@
----
-link: https://www.notion.so/git-Syncthing-e7464450d9144ca7ad6cc56632283bf6
-notionID: e7464450-d914-4ca7-ad6c-c56632283bf6
----
-
 #! https://zhuanlan.zhihu.com/p/432554268
+
+# 通过git+Syncthing管理文件夹，既有版本管理，又有多端自动同步
 
 这是一套开源免费的文件夹管理工具流，适合文档管理、代码管理、图片管理等
 
@@ -28,18 +25,19 @@ notionID: e7464450-d914-4ca7-ad6c-c56632283bf6
 3. 可以恢复到任意一个版本
 4. 可以对比两个版本之间的差异
 
-## [[MyObsidianNote/Archive/01-Inbox/syncthing]]的优点
+## [[syncthing]]的优点
 
-1. 可以多端自动同步，支持[[Windwos]]、[[macOS]]、[[MyObsidianNote/Archive/01-Inbox/Android]]、[[MyHulu/archive/MyLogseq/pages/Linux]]、[[MyObsidianNote/Inbox/ios]]
+1. 可以多端自动同步，支持[[Windwos]]、[[macOS]]、[[Android]]、[[Linux]]、[[ios]]
 2. 基于P2P技术，去中心化，无服务器，安全，保证隐私
+3. 可以部署到自己的云服务器，那就相当于一个个人网盘了，而且同步速度很快
 
 ## 操作流程
 
-建议直接使用[[Git-GUI工具]]：[[MyObsidianNote/Inbox/sourcetree]]或[[MyObsidianNote/Archive/01-Inbox/vscode]]，而非命令行操作
+建议直接使用[[Git-GUI工具]]：[[sourcetree]]或[[vscode]]，而非命令行操作
 
 以下代码主要是体现思路：
 
-1. 创建本地仓库
+1.创建本地仓库
 
 ```shell
 cd ~/project
@@ -48,7 +46,7 @@ git add .
 git commit -m “first commit”
 ```
 
-2. 创建远程仓库
+2.创建远程仓库
 
 ```shell
 mkdir -p ~/Downloads/Syncthing/MyNote
@@ -56,7 +54,7 @@ cd ~/Syncthing/project
 git init --bare
 ```
 
-3. 提交本地仓库的文件到远程仓库中
+3.提交本地仓库的文件到远程仓库中
 
 ```shell
 cd ~/project
@@ -64,13 +62,21 @@ git remote add origin ~/Downloads/Syncthing/MyNote-Remote
 git push origin master
 ```
 
-## Relate
+## Relate-相关笔记
 
-[[MyObsidianNote/Archive/01-Inbox/git init 和 git init –bare 的区别]]
+1. [[git init 和 git init –bare 的区别]]
 
-## Reference
+## Reference-参考资料
 
 1. [猴子都能懂的GIT入门 | 贝格乐（Backlog）](https://backlog.com/git-tutorial/cn/)
 2. [Syncthing - P2P文件同步工具 - 知乎](https://zhuanlan.zhihu.com/p/69267020)
 3. [你的github-通过坚果云管理您的代码 | [[坚果云]]博客](http://jianguoyun.blog.techweb.com.cn/archives/80.html)
 4. [git init 与 git init --bare 区别 - 陈浩然201 - 博客园](https://www.cnblogs.com/irockcode/p/8761954.html)
+5. [CENTOS7 安装 SYNCTHING - tamatama - 博客园](https://www.cnblogs.com/tamatama/p/13042886.html )
+
+## 欢迎交流
+
+我一直在探索各种好用好玩的工具和方法论，并以文章或脚本的形式分享出来，希望能帮
+大家减少自己去折腾的时间成本。
+
+如果你也对效能、工具、编程、写作感兴趣的话，获取查看 [Fishyer的知识库](https://docsify.fishyer.com ) ，里面也有我的私人威-信、公众-号和威-信群，期待与你一起交流学习。

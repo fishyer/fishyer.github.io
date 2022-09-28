@@ -1,7 +1,4 @@
----
-link: https://www.notion.so/RecycleView-Adapter-3f3ec8c3f7f0443784ee51f82be876bc
-notionID: 3f3ec8c3-f7f0-4437-84ee-51f82be876bc
----
+# RecycleView.Adapter的封装思路
 
 最终成品库已上传到Jcenter:
 ```

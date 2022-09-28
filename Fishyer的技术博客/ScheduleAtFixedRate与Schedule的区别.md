@@ -1,7 +1,5 @@
----
-link: https://www.notion.so/ScheduleAtFixedRate-Schedule-9c732e7cd288425097711d8b3a8dcb06
-notionID: 9c732e7c-d288-4250-9771-1d8b3a8dcb06
----
+# ScheduleAtFixedRate与Schedule的区别
+
 #Java
 
 ## 1.代码

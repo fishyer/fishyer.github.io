@@ -1,7 +1,4 @@
----
-link: https://www.notion.so/Java-c58ea66d12e8409c99026dee1c377d2f
-notionID: c58ea66d-12e8-409c-9902-6dee1c377d2f
----
+# Java集合框架总结
 
 #算法
 

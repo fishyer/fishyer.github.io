@@ -1,9 +1,6 @@
----
-link: https://www.notion.so/Chrome-uBlacklist-9dd30f83d80640cfa9a141b1aef44988
-notionID: 9dd30f83-d806-40cf-a9a1-41b1aef44988
----
-
 #! https://zhuanlan.zhihu.com/p/425602037
+
+# Chrome-使用uBlacklist插件-清除内容农场-优化搜索结果
 
 #Chrome
 
