@@ -27,7 +27,7 @@
 
 ## [[syncthing]]的优点
 
-1. 可以多端自动同步，支持[[Windwos]]、[[macOS]]、[[Android]]、[[Linux]]、[[ios]]
+1. 可以多端自动同步，支持[[Windwos]]、[[macOS]]、[[MyLogseq/pages/Android]]、[[Linux]]、[[ios]]
 2. 基于P2P技术，去中心化，无服务器，安全，保证隐私
 3. 可以部署到自己的云服务器，那就相当于一个个人网盘了，而且同步速度很快
 

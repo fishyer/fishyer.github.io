@@ -26,7 +26,7 @@
 
 [Blog](https://www.zhihu.com/people/fishyer2850/posts)
 [Logseq](https://logseq.fishyer.com)
-[Get Started](README.md)
+[Get Started](MyDocsify/README.md)
 
 <!-- 背景图片 -->
 ![](https://yupic.oss-cn-shanghai.aliyuncs.com/test/202209280136105.jpg)
