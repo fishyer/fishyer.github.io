@@ -7,8 +7,8 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+  <link rel="icon" href="log/favicon.ico" type="image/x-icon"/>
+  <link rel="shortcut icon" href="log/favicon.ico" type="image/x-icon"/>
 </head>
 <body>
   <!-- <nav>
@@ -23,20 +23,19 @@
       themeColor: '#76becc',
       // repo: 'https://github.com/fishyer',
       name: "Fishyer-PKM",
+      // 需要封面页面
+      coverpage: "_coverpage.md",
       // 侧边栏文档目录
       loadSidebar: true,
-      loadNavbar: true,
+      loadNavbar: "_navbar.md",
       // 因为有右侧文章内部目录，所以左侧的文件目录这里就不显示内部目录了
       subMaxLevel: 0,
       alias: {
         "/.*/_sidebar.md": "/_sidebar.md",
       },
-      // 跳转后自动到顶部
+      // 跳转后自动到顶部。打开以后会跳到封面顶部，有点问题
       // auto2top: true,
-      // 需要封面页面
-      coverpage: true,
-      // PLUGINS
-      // ----------------------------------------------------------------
+      // ------------------------------[PLUGINS]----------------------------------
       // 页面右侧toc
       toc: {
         tocMaxLevel: 2,
