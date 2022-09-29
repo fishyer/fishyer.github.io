@@ -81,6 +81,10 @@ python FastApiApplication.py
 ```
 然后就在 http://0.0.0.0:8001 启动服务了
 
+最好是设置为后台运行
+```
+nohup python src/FastApiApplication.py > log/bg.log 2>&1 &
+```
 
 ## Nginx端口转发以及https配置
 
