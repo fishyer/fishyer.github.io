@@ -3,7 +3,7 @@
 
 MyTags: 全栈程序员、量化交易者、效能工具控、终生学习者
 
-🔥如果你想学习编程，想自己去写插件(Chrome/uTools/Obsidian)、云服务、脚本、网站、app，可以查看[这里](https://logseq.fishyer.com/#/page/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8-%E5%AD%A6%E4%B9%A0%E7%BE%A4-%E7%AE%80%E4%BB%8B)
+🔥如果你想学习简单的编程，自己去DIY小工具，自己去写插件(Chrome/uTools/Obsidian)、云服务、脚本、网站、app，可以查看[这里](https://logseq.fishyer.com/#/page/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8-%E5%AD%A6%E4%B9%A0%E7%BE%A4-%E7%AE%80%E4%BB%8B)
 
 ## 🚀 高效信息管理-微信交流群
 
