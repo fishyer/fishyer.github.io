@@ -1,6 +1,6 @@
 var sidebarTxt='- [**欢迎回家**](/README.md)\n';
 var path = require('path');
-var curPath = path.resolve('./');
+var curPath = path.resolve('./MyDocsify/');
 var baseDirArr = [];
 
 function walkSync(currentDirPath, callback) {

@@ -4,8 +4,8 @@ const format = require('string-format')
 format.extend(String.prototype)
 
 // D:/Dropbox/MyChromeDown/MyObsidian/MyDocsify
-const dirPath = "D:/Dropbox/MyChromeDown/MyObsidian/MyDocsify"
-const mdPath='D:/Dropbox/MyChromeDown/MyObsidian/MyDocsify/GenOutline.md'
+const dirPath = "/Users/yutianran/MyWorkSpace/MyObsidian/MyDocsify"
+const mdPath='/Users/yutianran/MyWorkSpace/MyObsidian/MyDocsify/GenOutline.md'
 
 var prev = ""
 var post = ""
@@ -113,6 +113,6 @@ exports.start = start
 exports.main = main
 exports.test = test
 
-// main()
+main()
 // test()
-// console.log("end")
+console.log("end")
