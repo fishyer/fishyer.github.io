@@ -7,13 +7,13 @@ def generate_tree(pathname, n=0):
     name=pathname.name
     if pathname.is_file():
         # 过滤文件
-        if  name.startswith('_') or name.startswith('.') or name.endswith(".json") or name.endswith(".js") or name.endswith(".py") or name.endswith(".html") or name.endswith(".html"):
+        if  name.startswith('README') or name.startswith('_') or name.startswith('.') or name.endswith(".json") or name.endswith(".js") or name.endswith(".py") or name.endswith(".html") or name.endswith(".html"):
             pass
         else:
             # 打印文件
             fileName=os.path.splitext(pathname.name)[0]
             relativePath=str(pathname.relative_to(Path(exeDir)))
-            tree_str +=f"{'  ' * (n)}- [{fileName}]({relativePath})\n"
+            tree_str +=f"{'  ' * (n-1)}- [{fileName}]({relativePath})\n"
     elif pathname.is_dir():
         # 不处理config文件夹
         if name.startswith("config") or name.startswith(".") or name.startswith("config"):
@@ -23,7 +23,9 @@ def generate_tree(pathname, n=0):
             if  name.startswith("MyDocsify"):
                 pass
             else:
-                tree_str += '  ' * (n) + '- ' + str(pathname.relative_to(pathname.parent)) +'\n'
+                num=len(os.listdir(pathname.absolute()))
+                dirName=os.path.splitext(pathname.name)[0]
+                tree_str += f"{'  ' * (n-1)}- {dirName}-{num}\n"
             for cp in pathname.iterdir():
                 # 递归文件夹
                 generate_tree(cp, n + 1)
