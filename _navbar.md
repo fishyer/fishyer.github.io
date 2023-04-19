@@ -1,3 +1,0 @@
-- [Blog](https://www.zhihu.com/people/fishyer2850/posts)
-- [Logseq](https://logseq.fishyer.com)
-- [Docsify](http://docsify.fishyer.com)
