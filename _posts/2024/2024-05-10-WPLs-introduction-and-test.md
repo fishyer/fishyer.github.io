@@ -4,12 +4,10 @@ zhihu-url: https://zhuanlan.zhihu.com/p/696946945
 updated_at: 2024-05-10 14:11:50
 created_at: 2024-05-10 12:03:13
 id: 45ea777a-2db0-4f3f-9ea0-c9fa523f76ef
+layout: post
 title: "[随笔] WPLs-introduction-and-test"
 categories: 随笔
 author: fishyer
-layout: post
-published: "true"
-date: 2024-05-10 12:03:13
 ---
 
 WPL/s 是一个在 VS Code 中发布知乎文章/回答的插件。在 VS Code 中搜索 `zhihu` ，安装即可，如下图。虽然目前排在最后一个:cry:。
