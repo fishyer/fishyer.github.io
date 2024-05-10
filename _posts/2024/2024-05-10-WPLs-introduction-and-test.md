@@ -4,7 +4,9 @@ zhihu-url: https://zhuanlan.zhihu.com/p/696946945
 updated_at: 2024-05-10 14:11:50
 created_at: 2024-05-10 12:03:13
 id: 45ea777a-2db0-4f3f-9ea0-c9fa523f76ef
-title: WPLs-introduction-and-test
+title: "[随笔] WPLs-introduction-and-test"
+categories: 随笔
+author: fishyer
 layout: post
 published: "true"
 date: 2024-05-10 12:03:13
