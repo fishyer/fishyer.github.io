@@ -25,6 +25,7 @@
 		- Community support
 - #git
 	- #git执行clone时指定分支gh-pages
+		- git clone -b gh-pages git@github.com:fishyer/fishyer.github.io.git
 -
 -
 -
