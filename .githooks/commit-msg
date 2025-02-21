@@ -1,0 +1,8 @@
+#!/bin/sh
+MSG=$(cat $1)
+if [ ${#MSG} -lt 5 ]; then
+    echo "-----------"
+    echo "Commit message长度不足5个字符，请完善后再提交！"
+    echo "-----------"
+    exit 1
+fi
