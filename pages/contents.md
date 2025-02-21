@@ -26,7 +26,11 @@
 - #git
 	- #git执行clone时指定分支gh-pages
 		- git clone -b gh-pages git@github.com:fishyer/fishyer.github.io.git
--
+- #ai知识库
+	- [AIGC 应用实战营大纲](https://shimo.im/docs/5rk9K94M5QtzQ83x/read)
+	- [‌⁢⁡⁤⁡⁤⁢‬⁢﻿⁣‬‍​‌⁡​﻿​﻿⁡⁢⁢​​​‬⁣‌​⁣​‬﻿‍​⁢⁣⁢⁣‌‬‍‬⁤​⁡‬‬⁣GeekAGI 知识库 · 学习指南 - 飞书云文档](https://geek-agi.feishu.cn/wiki/B9rYwwg6xidZYJkbrlscxTQFnOc)
+	- <!--EndFragment-->
+	-
 -
 -
 -
