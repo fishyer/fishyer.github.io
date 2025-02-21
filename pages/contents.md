@@ -14,7 +14,15 @@
 	- 2
 	- 3
 - #yt-dlp
--
+- #github
+	- plans and usage
+		- Unlimited public/private repos
+		- Unlimited collaborators
+		- 2,000 Actions minutes/month
+		- 500MB of Packages storage
+		- 120 core-hours of Codespaces compute per developer
+		- 15GB of Codespaces storage per developer
+		- Community support
 -
 -
 -
