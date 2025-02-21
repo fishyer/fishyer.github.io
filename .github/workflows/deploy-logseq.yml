@@ -26,15 +26,15 @@ jobs:
         - name: Inject Script
           run: sed -i "s@</body>@$( cat $GITHUB_WORKSPACE/logseq/inject.html | tr '\n' ' ' | sed 's@&@\\&@g' )</body>@"  $GITHUB_WORKSPACE/www/index.html
 
-        # - name: Deploy 🚀
-        #   uses: JamesIves/github-pages-deploy-action@v4
-        #   with:
-        #   folder: www
+        - name: Deploy 🚀
+          uses: JamesIves/github-pages-deploy-action@v4
+          with:
+          folder: www
 
-        - name: Deploy
-          uses: s0/git-publish-subdir-action@develop
-          env:
-              REPO: git@github.com:fishyer/MyLogseq-Public.git
-              BRANCH: main
-              FOLDER: www
-              SSH_PRIVATE_KEY: ${{ secrets.MAC_PRIVATE_KEY }}
+        # - name: Deploy
+        #   uses: s0/git-publish-subdir-action@develop
+        #   env:
+        #       REPO: git@github.com:fishyer/MyLogseq-Public.git
+        #       BRANCH: main
+        #       FOLDER: www
+        #       SSH_PRIVATE_KEY: ${{ secrets.MAC_PRIVATE_KEY }}
