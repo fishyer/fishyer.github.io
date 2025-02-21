@@ -49,6 +49,7 @@
 - #ssh
 - #wsl
 - #logseq
+- #account
 -
 -
 -
