@@ -1,4 +1,5 @@
 ## 1.打开PowerShell
+collapsed:: true
 	- windows+R
 	- 输入powershell
 - ## 2.开启WSL
@@ -69,7 +70,7 @@
 		- 安装nrm
 			-
 - ## 6.推荐一个跨平台的SSH终端工具：Xterminal
-- ## 参考资料
+- ## Reference
   collapsed:: true
 	- node配置
 		- [coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows)

@@ -41,11 +41,12 @@
 	- [Grok](https://grok.com/ )
 	-
 - #国外信源
-  collapsed:: true
 	- [Medium](https://medium.com/ )
 - #ssh
 - #wsl
+- #logseq
 -
+- {{renderer :tocgen2, *, auto, 2,h}}
 -
 -
 -
