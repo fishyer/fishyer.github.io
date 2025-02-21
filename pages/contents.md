@@ -56,7 +56,11 @@
 - ## 最近项目
 	- #项目-数据采集
 	-
--
+- ## 最近命令
+	- 切换到ytdlp-downloader目录
+		- cd /mnt/ailab/my-code/ytdlp-downloader
+	- 统计当前批次已经下载了多少视频
+		- ls -1 download/Koala_36M_1-001/[70-100]/2025-02-21_05-12-17_610 | wc -l
 -
 -
 -
