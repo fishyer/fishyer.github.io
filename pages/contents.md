@@ -23,7 +23,8 @@
 		- 120 core-hours of Codespaces compute per developer
 		- 15GB of Codespaces storage per developer
 		- Community support
--
+- #git
+	- #git执行clone时指定分支gh-pages
 -
 -
 -
