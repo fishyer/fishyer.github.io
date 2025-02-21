@@ -1,0 +1,23 @@
+- 参数说明
+	- yt-dlp
+	- .\yt-dlp.exe
+	- --cookies-from-browser chrome:"C:\Users\v-yutianran\AppData\Local\Google\Chrome\User Data\Default"
+	- --cookies cookies.txt
+	- --netrc '~/.netrc'
+	- -F 查看支持下载的格式
+	- '-f', 'bestvideo+bestaudio/best',  # 选择视频和音频格式
+	- --limit-rate 用于限制下载速度。--limit-rate 500K
+	- --sleep-interval 用于指定每次下载之间的延迟。--sleep-interval 5
+	- --proxy [http://PROXY_ADDRESS:PORT](http://proxy_address:PORT/) 使用代理服务器
+	- -P 输出目录
+	- -o 输出文件名
+	- -i 忽略错误继续下载
+	- --merge-output-format mp4 合并输出格式为mp4
+	- '--external-downloader', 'aria2c',  # 使用aria2c加速下载
+	- '--external-downloader-args', '-x 16',  # 设置aria2c线程数
+	- '--download-sections', f'*{start_time}-{end_time}',  # 下载指定时间段
+- 使用案例
+	- yt-dlp -F [https://www.youtube.com/watch?v=lwAFSttEqno](https://www.youtube.com/watch?v=lwAFSttEqno)
+	- curl -v -x [socks5h://10.0.8.4:7777](socks5h://10.0.8.4:7777) [ip.fm](http://ip.fm/)
+- 下载源
+	- curl -X GET ["https://datasets-server.huggingface.co/rows?dataset=Koala-36M%2FKoala-36M-v1&config=default&split=train&offset=0&length=100"](https://datasets-server.huggingface.co/rows?dataset=Koala-36M%2FKoala-36M-v1&config=default&split=train&offset=0&length=100)
