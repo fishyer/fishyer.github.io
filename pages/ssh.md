@@ -1,0 +1,7 @@
+- #FAQ
+	- # 1-命令行登录堡垒机
+		- ssh -oHostKeyAlgorithms=+ssh-dss -p 22 v-yutianran@192.168.51.223
+-
+-
+-
+-
