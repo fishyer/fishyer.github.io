@@ -37,6 +37,8 @@
 		- git rm -r --cached . 
 		  git add . 
 		  git commit -m 'chore: update .gitignore'
+	- #好看的git-log
+		- git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 - #ai知识库
   collapsed:: true
 	- [AIGC 应用实战营大纲](https://shimo.im/docs/5rk9K94M5QtzQ83x/read)
