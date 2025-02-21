@@ -1,4 +1,19 @@
-## 参数说明
+## 参考资料
+	- 我想用yt-dlp下载youtube上面的36000000个视频，需要注意哪些问题？如何解决这些问题？
+		- https://www.wenxiaobai.com/share/chat/453fa5fe-7af3-4fce-952b-ab4bee7d8961
+	-
+- ## 技术难点
+	- 1-ip池
+		-
+	- 2-账号池
+		- YouTube会频繁轮换Cookie（平均每6小时失效）
+	- 3-下载速度
+		- 分布式下载，多线路并行，需自行开发调度系统
+	- 4-存储空间
+		-
+	- 5-错误重试
+		-
+- ## 参数说明
 	- yt-dlp
 	- .\yt-dlp.exe
 	- --cookies-from-browser chrome:"C:\Users\v-yutianran\AppData\Local\Google\Chrome\User Data\Default"
