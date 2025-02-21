@@ -1,3 +1,6 @@
 # YtrLogseq
 
-YtrLogseq is a plugin for Logseq that allows you to import your Ytr.io notes into Logseq.
+我的个人知识管理仓库
+
+基于Logseq的知识管理系统，用于记录、整理、归档、分享我的学习笔记、心得体会、知识总结等。
+
