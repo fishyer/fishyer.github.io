@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["yt-dlp" "README"]
+ :favorites ["ip代理池" "gmail账号池" "ssh" "git" "yt-dlp" "README"]
 
  ;; Set flashcards interval.
  ;; Expected value:
