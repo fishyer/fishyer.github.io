@@ -1,0 +1,3 @@
+curl https://api.anthropic.com/v1/messages -H "Content-Type: application/json" -H "Authorization: Bearer sk-ant-api03-rKEuH4Zf4xykcAOrmLrJyfYSZOxEe*YMq0KMGdq4GnLMnMf96jkfCQa-Oh6HYSvwiV26*-rGd74C4R2Ei07lEA-dhpDyAAA" -d "{ \"messages\": [ { \"role\": \"system\", \"content\": \"You are a test assistant.\" }, { \"role\": \"user\", \"content\": \"Testing. Just say hi and nothing else.\" } ] }"
+
+curl https:///api.mjdjourney.cn/v1/messages -H "Content-Type: application/json" -H "Authorization: Bearer sk-ZaO02gGWlW6CYn8F820a338000D34fAf836aFc1846100e7f" -d "{ \"messages\": [ { \"role\": \"system\", \"content\": \"You are a test assistant.\" }, { \"role\": \"user\", \"content\": \"Testing. Just say hi and nothing else.\" } ] }"
