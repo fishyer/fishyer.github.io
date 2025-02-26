@@ -1,0 +1,27 @@
+public:: true
+
+- ## 基础说明
+	- 请求的baseUrl
+		- http://crm-liu.yutianran.cn
+	- 请求方式
+		- post方式 (application/json;charset=utf-8)
+- ## 1-撞库接口
+	- http://crm-liu.yutianran.cn/home/Tbnb/cytCheckMobile
+		- 测试data
+			- mlfBDw5VO3h/DK4AJTc4MhLZzq7Y+S78z3HErhPBpjw=
+				- 会返回2个md5
+			- 3/FaiYWGuDKBFStewkYEsx/e8D2B5vhFID/pNdvQo2s=
+				- 会返回空数组
+	- Apifox截图 (仅供参考,以实际请求host为准,截图的host只是示例)
+		- ![](https://yupic.oss-cn-shanghai.aliyuncs.com/202408091605612.png){:height 390, :width 591}
+			-
+- ## 2-进件接口
+	- http://crm-liu.yutianran.cn/home/Tbnb/cytImportMobile
+		- 测试data
+			- 5EcSyDPxsF0FlYWDePUMKnGwQOx66CEMnSrjEut5QgCjQLcE4gDbnfCs57mZ0ryidWPaD7F IXf3Y0sFx2Nc5Mxb63TS5BVnSSoh8WsVewVdle3nUqBFqrSArMnCTXwpfM6iWRzVGDrvZxSJphZihSCl fUXVuqipc/0+lVsxelVZzAxfWFkMXlMkeEZmsYMdWdUx/4pQVSJ+CqdjtF59m/asdq+FrNghNl4dLNwd TeZ8v1/eP1X5oDvFBXBlni6/DbRhYBePfCObOIDA30QLCNPJc7ZcDL380FaXbjVjWXtHQUqeyluVZTLL lw309FVGw
+				- 返回数据如下图
+			- 重复执行时会提示客户重复
+	- Apifox截图 (仅供参考,以实际请求host为准,截图的host只是示例)
+		- ![](https://yupic.oss-cn-shanghai.aliyuncs.com/202408091707786.png)
+			-
+			-

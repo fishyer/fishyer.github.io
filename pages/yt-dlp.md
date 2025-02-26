@@ -9,9 +9,10 @@
 			- 3600/40=90个/s
 			- 3600/30=120个/s
 		- 一个ip一天大概可以处理1万条
-		- [[gmail账号池]]
+		- [[ip代理池]]
 	- 2-账号池
 		- YouTube会频繁轮换Cookie（平均每6小时失效）
+			- [[gmail账号池]]
 	- 3-下载速度
 		- 分布式下载，多线路并行，需自行开发调度系统
 		- 宿主机带宽 20M/s
@@ -43,3 +44,10 @@
 	- curl -v -x [socks5h://10.0.8.4:7777](socks5h://10.0.8.4:7777) [ip.fm](http://ip.fm/)
 - 下载源
 	- curl -X GET ["https://datasets-server.huggingface.co/rows?dataset=Koala-36M%2FKoala-36M-v1&config=default&split=train&offset=0&length=100"](https://datasets-server.huggingface.co/rows?dataset=Koala-36M%2FKoala-36M-v1&config=default&split=train&offset=0&length=100)
+- ## 测试笔记
+- yt-dlp --proxy "https://127.0.0.1:7890" --cookies "./static/cookies/marj-0435.txt" -f "bestvideo+bestaudio/best" --download-sections "*0:01:08.943-0:01:18.787" --merge-output-format "mp4" -P "static/download/Koala_36M_1-001/[0-4]/2025-02-23_04-37-10_561" -o "qqcXkzu7w2M_9_0-01-08.943-0-01-18.787.mp4" --download-archive "./static/archive/success_Koala_36M_1-001.txt" "https://www.youtube.com/watch?v=qqcXkzu7w2M"
+-
+-
+- yt-dlp -F --proxy "http://127.0.0.1:7890" --cookies "./static/cookies/marj-0435.txt" -f "bestvideo+bestaudio/best"  "https://www.youtube.com/watch?v=qqcXkzu7w2M"
+- yt-dlp --proxy "http://127.0.0.1:7890" --cookies "./static/cookies/marj-0435.txt" -f "bestvideo+bestaudio/best"  "https://www.youtube.com/watch?v=qqcXkzu7w2M"
+- yt-dlp --proxy "http://127.0.0.1:7890" --cookies "./static/cookies/marj-0435.txt" -f "bestvideo+bestaudio/best" --download-sections "*0:01:08.943-0:01:18.787" --merge-output-format "mp4" -P "static/download/Koala_36M_1-001/[0-4]/2025-02-23_04-37-10_561" -o "qqcXkzu7w2M_9_0-01-08.943-0-01-18.787.mp4" --download-archive "./static/archive/success_Koala_36M_1-001.txt" "https://www.youtube.com/watch?v=qqcXkzu7w2M"
