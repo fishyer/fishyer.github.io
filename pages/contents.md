@@ -1,3 +1,4 @@
+- http://pkm.fishyer.con
 - #README
 - ### 活动目录
   collapsed:: true
@@ -55,6 +56,7 @@
 - #logseq
 - #account
 - deepseek
+- #下载工具
 - ## 最近项目
 	- #项目-数据采集
 	-
@@ -94,7 +96,9 @@
 	- yt-dlp -F  --cookies "static/cookies/cookies-ku6mgma.txt" https://www.youtube.com/watch?v=vG41Y7QB8rM
 	- yt-dlp -F --proxy "socks5://t6etk9:qqu7ewvj@156.245.164.123:42000" --cookies "static/cookies/cookies-ku6mgma.txt" https://www.youtube.com/watch?v=vG41Y7QB8rM
 -
--
+- [[项目管理]]
+	- [[项目-CRM]]
+	-
 -
 -
 -
