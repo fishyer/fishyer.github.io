@@ -2,7 +2,7 @@ public:: true
 
 - ## 0-基础说明
 	- 请求的baseUrl
-		- http://103.115.46.227:20080
+		- http://123.56.47.177:20080
 	- 请求方式
 		- post方式 (application/json;charset=utf-8)
 	- AES加解密说明
@@ -85,11 +85,13 @@ public:: true
 	- /home/Tbnb/cytCheckMobile
 		- 测试数据
 		- case1=找到了数据 data=String[],里面的元素是手机号前8位的md5
+		  collapsed:: true
 			- ydq/479Nq5x+oA9rdjCymf0MUmSJNoS0AH5fRdR9P0w=
 				- 数据可能失效,仅供演示说明返回结构
 				- 会返回2个md5
 				- ![](https://yupic.oss-cn-shanghai.aliyuncs.com/202408091605612.png)
 		- case2=找不到数据 data=[]
+		  collapsed:: true
 			- curl
 				- ```
 				  curl -X POST 'http://103.115.46.227:20080/home/Tbnb/cytCheckMobile' -H 'Content-Type: application/json' -H 'Cookie: _bess=b22edbff702750f; s68113b96=d58930349ec322630b5fc2bedfb9f5f5' -d '{
@@ -101,6 +103,7 @@ public:: true
 	-
 	-
 	- Apifox截图 (仅供参考,以实际请求host为准,截图的host只是示例)
+	  collapsed:: true
 		- ![](https://yupic.oss-cn-shanghai.aliyuncs.com/202408091605612.png){:height 390, :width 591}
 			-
 - ## 2-进件接口
