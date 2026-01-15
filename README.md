@@ -1,7 +1,1 @@
 this is a test project
-
-<div style="font-size: 48px;">
-<p><a href="zbot:///">首页</a> </p>
-<p><a href="zbot:///product/10?ref=abc">商品页</a></p>
-<p ><a href="zbot:///counter">计数页</a></p>
-</div>
