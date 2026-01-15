@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zbot</title>
+
+    <!-- iOS Smart App Banner -->
+    <meta name="apple-itunes-app" content="app-id=YOUR_IOS_APP_ID, app-argument=https://zbot.fishyer.com">
+
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            text-align: center;
+            padding: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #007AFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 16px;
+            margin: 10px;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        .btn-secondary {
+            background-color: #6c757d;
+        }
+        .btn-secondary:hover {
+            background-color: #545b62;
+        }
+        .info {
+            color: #666;
+            font-size: 14px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>欢迎访问 Zbot</h1>
+    <p>点击下方按钮打开 App 或下载安装</p>
+
+    <!-- Primary CTA: Open App -->
+    <a href="https://zbot.fishyer.com" class="btn" id="openAppBtn">打开 App2</a>
+
+    <!-- Fallback: Download -->
+    <a href="#" class="btn btn-secondary" id="downloadBtn">下载 App</a>
+
+    <p class="info">
+        如果无法自动打开 App，请点击下载按钮前往应用市场。
+    </p>
+
+    <script>
+        // Configuration
+        const CONFIG = {
+            // Fallback timeout in milliseconds
+            FALLBACK_TIMEOUT: 1500,
+            // iOS App Store URL (replace YOUR_IOS_APP_ID)
+            IOS_APP_STORE_URL: 'https://apps.apple.com/cn/app/idYOUR_IOS_APP_ID',
+            // Android Play Store URL (replace your package name)
+            ANDROID_PLAY_STORE_URL: 'https://play.google.com/store/apps/details?id=com.example.zbot',
+            // Custom scheme URL (will be constructed from current page URL)
+            DEEP_LINK_URL: ''
+        };
+
+        // Initialize deep link URL from current page URL
+        CONFIG.DEEP_LINK_URL = window.location.href.replace('https://zbot.fishyer.com', 'zbot://');
+
+        /**
+         * Detect device type
+         */
+        function getDeviceType() {
+            const ua = navigator.userAgent || navigator.vendor || window.opera;
+            if (/android/i.test(ua)) {
+                return 'android';
+            }
+            if (/iPad|iPhone|iPod/.test(ua) && !window.MSStream) {
+                return 'ios';
+            }
+            return 'desktop';
+        }
+
+        /**
+         * Open app or fallback to store
+         */
+        function openAppOrFallback() {
+            const deviceType = getDeviceType();
+            const startTime = Date.now();
+            let hasFocused = false;
+
+            // Update download button URL based on device
+            const downloadBtn = document.getElementById('downloadBtn');
+            if (deviceType === 'ios') {
+                downloadBtn.href = CONFIG.IOS_APP_STORE_URL;
+            } else if (deviceType === 'android') {
+                downloadBtn.href = CONFIG.ANDROID_PLAY_STORE_URL;
+            } else {
+                downloadBtn.href = '#';
+                downloadBtn.style.display = 'none';
+            }
+
+            // Try to open app using custom scheme
+            if (deviceType === 'ios' || deviceType === 'android') {
+                window.location.href = CONFIG.DEEP_LINK_URL;
+
+                // Set up visibility change detection
+                const visibilityHandler = () => {
+                    if (document.visibilityState === 'hidden') {
+                        hasFocused = true;
+                        clearTimeout(fallbackTimer);
+                        document.removeEventListener('visibilitychange', visibilityHandler);
+                    }
+                };
+
+                document.addEventListener('visibilitychange', visibilityHandler);
+
+                // Fallback timeout
+                const fallbackTimer = setTimeout(() => {
+                    document.removeEventListener('visibilitychange', visibilityHandler);
+
+                    if (!hasFocused && deviceType !== 'desktop') {
+                        // App didn't open, redirect to store
+                        if (deviceType === 'ios') {
+                            window.location.href = CONFIG.IOS_APP_STORE_URL;
+                        } else if (deviceType === 'android') {
+                            window.location.href = CONFIG.ANDROID_PLAY_STORE_URL;
+                        }
+                    }
+                }, CONFIG.FALLBACK_TIMEOUT);
+            }
+        }
+
+        // Attach click handler to open app button
+        document.getElementById('openAppBtn').addEventListener('click', function(e) {
+            e.preventDefault();
+            // openAppOrFallback();
+             window.location.href = "zbot:///product/10?ref=abc"
+             window.location.href = "https://zbot.fishyer.com/product/10?ref=abc"
+        });
+
+        // Auto-redirect on page load (optional, can be disabled)
+        // Uncomment below to enable auto-redirect
+        /*
+        window.addEventListener('load', function() {
+            // Only auto-redirect on mobile devices
+            if (getDeviceType() !== 'desktop') {
+                // Small delay to ensure page is visible
+                setTimeout(openAppOrFallback, 100);
+            }
+        });
+        */
+    </script>
+</body>
+</html>
