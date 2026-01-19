@@ -6,7 +6,7 @@
     <title>Zbot</title>
 
     <!-- iOS Smart App Banner -->
-    <meta name="apple-itunes-app" content="app-id=YOUR_IOS_APP_ID, app-argument=https://zbot.fishyer.com">
+    <meta name="apple-itunes-app" content="app-id=YOUR_IOS_APP_ID, app-argument=https://fishyer.github.io">
 
     <style>
         body {
@@ -43,11 +43,11 @@
     </style>
 </head>
 <body>
-    <h1>欢迎访问 Zbot</h1>
+    <h1>欢迎访问 Ruyuan</h1>
     <p>点击下方按钮打开 App 或下载安装</p>
 
     <!-- Primary CTA: Open App -->
-    <a href="https://zbot.fishyer.com" class="btn" id="openAppBtn">打开 App2</a>
+    <a href="ruyuan:///main/pet" class="btn" id="openAppBtn">打开 App</a>
 
     <!-- Fallback: Download -->
     <a href="#" class="btn btn-secondary" id="downloadBtn">下载 App</a>
@@ -62,15 +62,12 @@
             // Fallback timeout in milliseconds
             FALLBACK_TIMEOUT: 1500,
             // iOS App Store URL (replace YOUR_IOS_APP_ID)
-            IOS_APP_STORE_URL: 'https://apps.apple.com/cn/app/idYOUR_IOS_APP_ID',
+            IOS_APP_STORE_URL: 'https://apps.apple.com/cn/app/id6755998042',
             // Android Play Store URL (replace your package name)
-            ANDROID_PLAY_STORE_URL: 'https://play.google.com/store/apps/details?id=com.example.zbot',
+            ANDROID_PLAY_STORE_URL: 'https://play.google.com/store/apps/details?id=com.ruyuan.pro',
             // Custom scheme URL (will be constructed from current page URL)
             DEEP_LINK_URL: ''
         };
-
-        // Initialize deep link URL from current page URL
-        CONFIG.DEEP_LINK_URL = window.location.href.replace('https://zbot.fishyer.com', 'zbot://');
 
         /**
          * Detect device type
@@ -137,12 +134,12 @@
         }
 
         // Attach click handler to open app button
-        document.getElementById('openAppBtn').addEventListener('click', function(e) {
-            e.preventDefault();
-            // openAppOrFallback();
-            //  window.location.href = "zbot:///product/10?ref=abc"
-             window.location.href = "https://fishyer.github.io/product/10?ref=abc"
-        });
+        // document.getElementById('openAppBtn').addEventListener('click', function(e) {
+        //     e.preventDefault();
+        //     // openAppOrFallback();
+        //     //  window.location.href = "zbot:///product/10?ref=abc"
+        //      window.location.href = "https://fishyer.github.io/product/10?ref=abc"
+        // });
 
         // Auto-redirect on page load (optional, can be disabled)
         // Uncomment below to enable auto-redirect
