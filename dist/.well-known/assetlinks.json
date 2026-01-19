@@ -3,7 +3,7 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.example.zbot",
+      "package_name": "com.ruyuan.pro",
       "sha256_cert_fingerprints": [
         "53:84:E9:0B:6B:EC:52:B3:E4:28:DC:3F:73:1E:1E:E7:A4:12:81:2D:8A:DA:9A:D5:C2:2F:45:C0:E6:1E:68:C5"
       ]
