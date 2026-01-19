@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "Q277W535X6.com.ruyuan.pet",
+        "paths": [
+          "/product/*",
+          "/*"
+        ]
+      }
+    ]
+  }
+}
